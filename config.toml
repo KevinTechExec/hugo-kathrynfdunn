@@ -23,8 +23,8 @@ disqusShortname = ""
   description = "Portfolio & Projects"
 
   # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
+  custom_css = ["css/masonry.css", "css/lightbox.min.css"]
+  custom_js  = ["https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js", "js/lightbox.min.js"]
   favicon    = "favicon.ico"
 
   # Just a custom image variable, please define it in .md files for content.
@@ -38,7 +38,7 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Kathryn F. Dunn"
-    subtitle = "Portfolio Site"
+    subtitle = "Portfolio"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -48,16 +48,16 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "Showcase"
+      url = "showcase"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "Resume"
+      url = "resume"
 
     [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "Contact"
+      url = "contact"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -67,14 +67,14 @@ disqusShortname = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+    #[[params.navigation.button1]]
+    #  name = "Learn More About My Projects"
+    #  url = "showcase"
 
     # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+    #[[params.navigation.button2]]
+    #  name = "Log In"
+    #  url = "#"
 
 
   # Banner section
@@ -92,40 +92,28 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "REI"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic01.jpg"
-      url = "blogs/aliquam"
-
-    [[params.tiles.showcase]]
       title = "Texas Christian University"
       subtitle = "Feugiat Amet Tempus"
       image = "Sadler_Hall_TCU_Wikipedia_PublicDomain.jpg"
-      url = "blogs/tempus"
+      url = "showcase/tcu"
 
     [[params.tiles.showcase]]
       title = "Ascend Marketing"
       subtitle = "Lorem Etiam Nullam"
       image = "pic03.jpg"
-      url = "blogs/magna"
+      url = "showcase/ascend"
 
     [[params.tiles.showcase]]
       title = "Heritage Auctions"
       subtitle = "Nisl Sed Aliquam"
       image = "Heritage_Auctions_Building_Wikipedia_SlabbedPurpleNurple_ccsa.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+      url = "showcase/heritage"
 
     [[params.tiles.showcase]]
       title = "Freelance"
       subtitle = "Feugiat Amet Tempus"
       image = "pic06.jpg"
-      url = "blogs/ipsum"
+      url = "showcase/freelance"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
