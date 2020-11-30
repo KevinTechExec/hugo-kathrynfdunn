@@ -21,11 +21,25 @@
                     </header>
                     {{ if .Params.image }}
                     <span class="image main"><img
-                            src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}"
-                            alt="" /></span>
+                            src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" /></span>
                     {{ end }}
+
                     {{ .Content }}
-                    <!-- Social Media -->
+
+                    <!-- Featured Atricles - only if featuredarticles: present in frontmatter -->
+                    {{ if isset .Params "featuredarticles" }}
+                    <h2>Featured Articles</h2>
+                    <div class="">
+                        <ul>
+                        {{ range .Params.featuredarticles }}
+                        <li>{{ . }} </li>
+                        {{ end }}
+</ul>
+                    </div>
+                    {{ end }}
+
+                    <!-- Social Media - only if socialmedia: present in frontmatter -->
+                    {{ if isset .Params "socialmedia" }}
                     <h2>Social Media</h2>
                     <div class="grid">
                         {{ range .Params.socialmedia }}
@@ -35,7 +49,9 @@
                             </a>
                         </div>
                         {{ end }}
+
                     </div>
+                    {{ end }}
                 </div>
             </section>
 

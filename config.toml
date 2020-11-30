@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://kathrynfdunn.onrender.com/"
+baseURL = "https://kathrynfdunn.com"
 languageCode = "en-us"
 title = "Kathryn F. Dunn"
 theme = "forty"
@@ -94,7 +94,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Texas Christian University"
       subtitle = "Feugiat Amet Tempus"
-      image = "Sadler_Hall_TCU_Wikipedia_PublicDomain.jpg"
+      image = "showcase/Sadler_Hall_TCU_Wikipedia_PublicDomain.jpg"
       url = "showcase/tcu"
 
     [[params.tiles.showcase]]
@@ -106,7 +106,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Heritage Auctions"
       subtitle = "Nisl Sed Aliquam"
-      image = "Heritage_Auctions_Building_Wikipedia_SlabbedPurpleNurple_ccsa.jpg"
+      image = "showcase/Heritage_Auctions_Building_Wikipedia_SlabbedPurpleNurple_ccsa.jpg"
       url = "showcase/heritage"
 
     [[params.tiles.showcase]]
