@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://kathrynfdunn.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Kathryn F. Dunn"
 theme = "forty"
