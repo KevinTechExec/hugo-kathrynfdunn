@@ -27,14 +27,17 @@
                     {{ .Content }}
 
                     <!-- Featured Atricles - only if featuredarticles: present in frontmatter -->
-                    {{ if isset .Params "featuredarticles" }}
+                    {{ if isset .Params "features" }}
                     <h2>Featured Articles</h2>
                     <div class="">
                         <ul>
-                        {{ range .Params.featuredarticles }}
-                        <li>{{ . }} </li>
-                        {{ end }}
-</ul>
+                            {{ range .Params.features }}
+                            <li><a href="{{ index . "feature" "feature_image" }}"
+                                    data-lightbox="{{ index . "feature" "feature_title" }}">
+                                    "{{ index . "feature" "feature_title" }}"</a> {{ index . "feature" "feature_date"}} <a href="{{ index . "feature" "feature_link" }}" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                            </li>
+                            {{ end }}
+                        </ul>
                     </div>
                     {{ end }}
 
