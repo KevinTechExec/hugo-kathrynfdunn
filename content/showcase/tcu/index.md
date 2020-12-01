@@ -10,12 +10,12 @@ categories:
 date: 2017-10-31T21:28:43-05:00
 draft: false
 socialmedia:
-  - "/showcase/tcu/kdunn-tcu-portfolio-1.jpg"
-  - "/showcase/tcu/kdunn-tcu-portfolio-2.jpg"
-  - "/showcase/tcu/kdunn-tcu-portfolio-3.jpg"
-  - "/showcase/tcu/kdunn-tcu-portfolio-4.jpg"
-  - "/showcase/tcu/kdunn-tcu-portfolio-5.jpg"
-  - "/showcase/tcu/kdunn-tcu-portfolio-6.jpg"
+  - "kdunn-tcu-portfolio-1.jpg"
+  - "kdunn-tcu-portfolio-2.jpg"
+  - "kdunn-tcu-portfolio-3.jpg"
+  - "kdunn-tcu-portfolio-4.jpg"
+  - "kdunn-tcu-portfolio-5.jpg"
+  - "kdunn-tcu-portfolio-6.jpg"
 features:
   - feature:
       feature_title: "Five Lessons from a Lifetime Invested in Music"
