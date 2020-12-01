@@ -32,7 +32,7 @@
                     <div class="">
                         <ul>
                             {{ range .Params.features }}
-                            <li><a href="{{ index . "feature" "feature_image" }}"
+                            <li><a href="{{ index . "feature" "feature_image"  }}"
                                     data-lightbox="{{ index . "feature" "feature_title" }}">
                                     "{{ index . "feature" "feature_title" }}"</a> {{ index . "feature" "feature_date"}} <a href="{{ index . "feature" "feature_link" }}" target="blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
                             </li>
