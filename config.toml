@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "/"
+baseURL = "https://localhost:1313/"
 languageCode = "en-us"
 title = "Kathryn F. Dunn"
 theme = "forty"
@@ -82,7 +82,7 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "Hi, my name is Kathryn"
-    subtitle = "A DESCRIPTION OF WHO AND WHAT YOU ARE."
+    subtitle = "WRITING, BRAND MANAGEMENT, AND SOCIAL MEDIA, "
     buttonText = "Learn More About Me"
 
 
@@ -93,25 +93,25 @@ disqusShortname = ""
     
     [[params.tiles.showcase]]
       title = "Texas Christian University"
-      subtitle = "Feugiat Amet Tempus"
+      subtitle = "Communicating about the Fine Arts"
       image = "showcase/Sadler_Hall_TCU_Wikipedia_PublicDomain.jpg"
       url = "showcase/tcu/"
 
     [[params.tiles.showcase]]
       title = "Ascend Marketing"
-      subtitle = "Lorem Etiam Nullam"
+      subtitle = "Showcasing Brands in Social Media"
       image = "pic03.jpg"
       url = "showcase/ascend/"
 
     [[params.tiles.showcase]]
       title = "Heritage Auctions"
-      subtitle = "Nisl Sed Aliquam"
+      subtitle = "Highlighting Unique Pieces of History"
       image = "showcase/Heritage_Auctions_Building_Wikipedia_SlabbedPurpleNurple_ccsa.jpg"
       url = "showcase/heritage/"
 
     [[params.tiles.showcase]]
       title = "Freelance"
-      subtitle = "Feugiat Amet Tempus"
+      subtitle = "Social Media for Unique Clients"
       image = "pic06.jpg"
       url = "showcase/freelance/"
     # You can make more showcases by copy and pasting the code above
@@ -125,7 +125,7 @@ disqusShortname = ""
 
   # Section Type Two
   [params.two]
-    enable = true
+    enable = false
     title = "Massa libero"
     subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
     Mauris aliquet magna magna sed nunc rhoncus pharetra. 
@@ -160,7 +160,7 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "katefdunn@gmail.com"
 
     [[params.contact.phone]]
     title = "Phone"
@@ -175,7 +175,7 @@ disqusShortname = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Kathryn Dunn"
+    copyright = "Kathryn Dunn 2020"
 
     # Uses font awesome icons
     [[params.footer.social]]
@@ -193,10 +193,10 @@ disqusShortname = ""
       url= "https://www.instagram.com"
       label = "Instagram"
     
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://www.github.com"
-      label = "GitHub"
+    #[[params.footer.social]]
+    #  icon = "fa-github"
+    #  url= "https://www.github.com"
+    #  label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
